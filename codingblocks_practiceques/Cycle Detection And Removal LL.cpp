@@ -13,9 +13,6 @@ public:
     }
 };
 
-// head - Head pointer of the Linked List
-// Return a boolean value indicating the presence of cycle
-// If the cycle is present, modify the linked list to remove the cycle as well
 bool floydCycleRemoval(Node *head)
 {
     /* Code here */
@@ -45,18 +42,6 @@ bool floydCycleRemoval(Node *head)
     }
     return true;
 }
-
-/*
-*
-*
-*   You do not need to refer or modify any code below this. 
-*   Only modify the above function definition.
-*	Any modications to code below could lead to a 'Wrong Answer' verdict despite above code being correct.
-*	You do not even need to read or know about the code below.
-*
-*
-*
-*/
 
 void buildCycleList(Node *&head)
 {
