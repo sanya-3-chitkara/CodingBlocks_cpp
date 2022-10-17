@@ -27,7 +27,10 @@ void nextGreater(int arr[], int n)
             cout<<arr[i]<<","<<arr[ans[i]]<<endl;
         }
     }
- int main() 
+} 
+
+// The Main Function
+int main() 
 { 
     int t;
     cin>>t;
@@ -43,4 +46,5 @@ void nextGreater(int arr[], int n)
 	
 	return 0; 
 } 
+
 
